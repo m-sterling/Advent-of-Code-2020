@@ -1,4 +1,3 @@
-import re
 def main():
     with open('../inputs/day08', 'r') as f:
         src = [line.strip() for line in f.read().split('\n') if line]
